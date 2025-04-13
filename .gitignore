@@ -1,0 +1,9 @@
+mcpTools
+.DS_Store
+.idea
+.vscode
+.git
+.gitignore
+.gitmodules
+.gitattributes
+.gitkeep

@@ -14,7 +14,9 @@ func main() {
 	)
 
 	// Register tools
-	tools.RegisterTool(s, tools.NewIpQuery())
+	tools.RegisterTool(s,
+		tools.NewQueryIp(),
+		tools.NewQueryWeather())
 
 	// Start the stdio server
 	if err := server.ServeStdio(s); err != nil {
